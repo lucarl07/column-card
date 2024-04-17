@@ -9,11 +9,11 @@
     width: 330px;
     height: 500px;
 }
-.carType:nth-of-type(1) {
+.carType:first-of-type {
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
-.carType:nth-last-of-type(1) {
+.carType:last-of-type {
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
 }
