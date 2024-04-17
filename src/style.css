@@ -1,0 +1,34 @@
+/* COLUMN CARD - Main Style Sheet */
+
+/* Style variables: */
+:root {
+  /** Primary colors: **/
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /** Neutral colors: **/
+  --transparent-white: hsla(0, 0%, 100%, 0.75); /* (paragraphs) */
+  --very-light-gray: hsl(0, 0%, 95%); /* (background, headings, buttons) */
+
+  /** Font size: **/
+  --p-size: 15px;
+}
+
+/* Fonts: */
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url('./assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url('./assets/fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf');
+}
+
+/* Global properties: */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

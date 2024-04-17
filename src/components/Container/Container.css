@@ -1,0 +1,6 @@
+/* COLUMN CARD - Container */
+
+.container {
+    display: flex;
+    border-radius: 1rem;
+}

@@ -1,0 +1,17 @@
+/* COLUMN CARD - Block Button */
+
+.btn {
+    width: 144px;
+    height: 48px;
+    border: 2px solid var(--very-light-gray);
+    border-radius: 24px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: var(--p-size);
+    font-weight: 600;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn:active {
+    background: none;
+}

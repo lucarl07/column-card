@@ -1,0 +1,32 @@
+/* COLUMN CARD - Car Type Block */
+
+.carType {
+    display: inherit;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3rem;
+    width: 330px;
+    height: 500px;
+}
+
+.info {
+    display: inherit;
+    flex-direction: inherit;
+    gap: 2rem;
+}
+.info img {
+    width: 64px;
+}
+.info h1 {
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 40px;
+}
+.info p {
+    color: var(--transparent-white);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: var(--p-size);
+    line-height: 0.65cm;
+}
