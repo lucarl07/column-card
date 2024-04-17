@@ -6,7 +6,7 @@ const CarType = ({icon, type, desc, color}) => {
   const [modal, setModal] = React.useState(false);
 
   return (
-    <section className='carType' style={{backgroundColor: color}}>
+    <section className='carType' style={{ backgroundColor: color }}>
       <div className='info'>
         <img src={icon} alt={`Icon for the ${type} category`} />
         <h1 className='title'>{type}</h1>

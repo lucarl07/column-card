@@ -14,6 +14,18 @@ const Container = () => {
     "Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style."
   ];
 
+  // const carTypes = [
+  //   {
+  //     icon: IconSedans,
+  //     description: "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.",
+  //     color: 'var(--bright-orange)'
+  //   },
+  //   {
+  //     icon: 
+  //   },
+  //   {},
+  // ]
+
   return (
     <main className='container'>
       <CarType icon={IconSedans} type='Sedans' desc={carDescList[0]} color='var(--bright-orange)'/>
